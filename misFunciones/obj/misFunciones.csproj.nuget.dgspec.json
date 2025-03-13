@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\MAUI\\repos\\misFunciones\\misFunciones\\misFunciones.csproj": {}
+    "E:\\MAUI\\repos\\signalRSinServicio\\misFunciones\\misFunciones\\misFunciones.csproj": {}
   },
   "projects": {
-    "E:\\MAUI\\repos\\misFunciones\\misFunciones\\misFunciones.csproj": {
+    "E:\\MAUI\\repos\\signalRSinServicio\\misFunciones\\misFunciones\\misFunciones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MAUI\\repos\\misFunciones\\misFunciones\\misFunciones.csproj",
+        "projectUniqueName": "E:\\MAUI\\repos\\signalRSinServicio\\misFunciones\\misFunciones\\misFunciones.csproj",
         "projectName": "misFunciones",
-        "projectPath": "E:\\MAUI\\repos\\misFunciones\\misFunciones\\misFunciones.csproj",
+        "projectPath": "E:\\MAUI\\repos\\signalRSinServicio\\misFunciones\\misFunciones\\misFunciones.csproj",
         "packagesPath": "C:\\Users\\ed449\\.nuget\\packages\\",
-        "outputPath": "E:\\MAUI\\repos\\misFunciones\\misFunciones\\obj\\",
+        "outputPath": "E:\\MAUI\\repos\\signalRSinServicio\\misFunciones\\misFunciones\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
