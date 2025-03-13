@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("misFunciones")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e041ceb90914c7cbef4f21447394c2734d30549c")]
 [assembly: System.Reflection.AssemblyProductAttribute("misFunciones")]
 [assembly: System.Reflection.AssemblyTitleAttribute("misFunciones")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
