@@ -13,6 +13,7 @@ variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
+  packageOutput: '$(Build.ArtifactStagingDirectory)'
 
 steps:
 - task: NuGetToolInstaller@1
@@ -32,3 +33,11 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+
+- script: |
+    dotnet pack --configuration $(buildConfiguration) --output $(packageOutput)
+  displayName: 'Generar paquete NuGet'
+
+- script: |
+    dotnet nuget push $(packageOutput)/*.nupkg --api-key oy2avwim63m7573s67wa346ylmjhucfupp665bxw7db3mi --source https://api.nuget.org/v3/index.json --skip-duplicate
+  displayName: 'Publicar en NuGet'
