@@ -14,7 +14,7 @@ variables:
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
   packageOutput: '$(Build.ArtifactStagingDirectory)'
-
+  packageVersion: '1.0.$(Build.BuildId)'
 steps:
 - task: NuGetToolInstaller@1
 
@@ -35,7 +35,7 @@ steps:
     configuration: '$(buildConfiguration)'
 
 - script: |
-    dotnet pack --configuration $(buildConfiguration) --output $(packageOutput)
+    dotnet pack --configuration $(buildConfiguration) --output $(packageOutput) /p:Version=$(packageVersion)
   displayName: 'Generar paquete NuGet'
 
 - script: |
