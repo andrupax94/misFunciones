@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("© TuNombre, 2025")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Una breve descripción de tu paquete.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e823cb00294e63d59f79436789af039b4ca69ab3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+9ec16c11ae2dcc9db37ca62401ed31f070716abd")]
 [assembly: System.Reflection.AssemblyProductAttribute("misFunciones")]
 [assembly: System.Reflection.AssemblyTitleAttribute("misFunciones")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

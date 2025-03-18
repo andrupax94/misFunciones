@@ -88,20 +88,26 @@ namespace misFunciones
             string mensajeString = JsonSerializer.Serialize(mensajeJson);
             return mensajeString;
         }
-      
+
     }
     public class Utilidades
     {
-        public static void CenterText(string text)
+        public static void CenterText(string asciiArt)
         {
-            int windowWidth = Console.WindowWidth; // Ancho de la consola
-            int textPosition = (windowWidth / 2) - (text.Length / 2); // Calcula la posición inicial
+            int windowWidth = Console.WindowWidth; // Obtiene el ancho de la consola
+            string[] lines = asciiArt.Split('\n'); // Divide el ASCII en líneas
 
-            if (textPosition < 0)
-                textPosition = 0; // Asegura que no se desborde si el texto es más ancho que la consola
+            foreach (string line in lines)
+            {
+                string trimmedLine = line.TrimEnd(); // Elimina espacios extra a la derecha
+                int padding = (windowWidth - trimmedLine.Length) / 2; // Calcula el espacio antes del texto
 
-            Console.SetCursorPosition(textPosition, Console.CursorTop); // Posiciona el cursor
-            Console.WriteLine(text); // Imprime el texto
+                if (padding < 0) padding = 0; // Evita valores negativos si el texto es más ancho que la consola
+
+                Console.WriteLine(new string(' ', padding) + trimmedLine); // Imprime con el padding adecuado
+            }
         }
+
+
     }
 }
