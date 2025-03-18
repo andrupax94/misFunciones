@@ -5,6 +5,20 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Configurations>Debug;Release;hjgj</Configurations>
+    <PackageId>misFunciones</PackageId>
+    <VersionPrefix>1.0</VersionPrefix>
+    <!-- Define la versión base -->
+    <VersionSuffix>$(Rev:r)</VersionSuffix>
+    <!-- Agrega un sufijo con el número de revisión -->
+    <GenerateAssemblyVersionAttribute>true</GenerateAssemblyVersionAttribute>
+    <Authors>TuNombre</Authors>
+    <Description>Una breve descripción de tu paquete.</Description>
+    <Copyright>© TuNombre, 2025</Copyright>
+    <PackageTags>etiqueta1;etiqueta2</PackageTags>
+    <RepositoryUrl>https://github.com/tu-repo</RepositoryUrl>
   </PropertyGroup>
+  <Target Name="PublishNuGet" AfterTargets="Pack">
+    <Exec Command="dotnet nuget push $(OutputPath)\bin\Release\misFunciones.1.0.$(Rev:r).nupkg --api-key oy2avwim63m7573s67wa346ylmjhucfupp665bxw7db3mi --source https://api.nuget.org/v3/index.json" />
 
+  </Target>
 </Project>

@@ -11,13 +11,16 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("misFunciones")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("TuNombre")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("© TuNombre, 2025")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Una breve descripción de tu paquete.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+bb365497c73137de1b48fee6b2b08eb598f8fe3a")]
 [assembly: System.Reflection.AssemblyProductAttribute("misFunciones")]
 [assembly: System.Reflection.AssemblyTitleAttribute("misFunciones")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/tu-repo")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
 

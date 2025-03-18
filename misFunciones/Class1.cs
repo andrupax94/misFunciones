@@ -90,4 +90,18 @@ namespace misFunciones
         }
       
     }
+    public class Utilidades
+    {
+        public static void CenterText(string text)
+        {
+            int windowWidth = Console.WindowWidth; // Ancho de la consola
+            int textPosition = (windowWidth / 2) - (text.Length / 2); // Calcula la posición inicial
+
+            if (textPosition < 0)
+                textPosition = 0; // Asegura que no se desborde si el texto es más ancho que la consola
+
+            Console.SetCursorPosition(textPosition, Console.CursorTop); // Posiciona el cursor
+            Console.WriteLine(text); // Imprime el texto
+        }
+    }
 }

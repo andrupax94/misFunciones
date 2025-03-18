@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>misFunciones</id>
+    <version>1.0.1</version>
+    <authors>TuNombre</authors>
+    <description>Una breve descripción de tu paquete.</description>
+    <copyright>© TuNombre, 2025</copyright>
+    <tags>etiqueta1 etiqueta2</tags>
+    <repository type="git" url="https://github.com/tu-repo" commit="bb365497c73137de1b48fee6b2b08eb598f8fe3a" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\MAUI\repos\misFunciones\misFunciones\bin\Release\net8.0\misFunciones.dll" target="lib\net8.0\misFunciones.dll" />
+  </files>
+</package>

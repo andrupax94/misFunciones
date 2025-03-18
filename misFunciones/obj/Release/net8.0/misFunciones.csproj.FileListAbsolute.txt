@@ -1,0 +1,12 @@
+E:\MAUI\repos\misFunciones\misFunciones\bin\Release\net8.0\misFunciones.deps.json
+E:\MAUI\repos\misFunciones\misFunciones\bin\Release\net8.0\misFunciones.dll
+E:\MAUI\repos\misFunciones\misFunciones\bin\Release\net8.0\misFunciones.pdb
+E:\MAUI\repos\misFunciones\misFunciones\obj\Release\net8.0\misFunciones.GeneratedMSBuildEditorConfig.editorconfig
+E:\MAUI\repos\misFunciones\misFunciones\obj\Release\net8.0\misFunciones.AssemblyInfoInputs.cache
+E:\MAUI\repos\misFunciones\misFunciones\obj\Release\net8.0\misFunciones.AssemblyInfo.cs
+E:\MAUI\repos\misFunciones\misFunciones\obj\Release\net8.0\misFunciones.csproj.CoreCompileInputs.cache
+E:\MAUI\repos\misFunciones\misFunciones\obj\Release\net8.0\misFunciones.sourcelink.json
+E:\MAUI\repos\misFunciones\misFunciones\obj\Release\net8.0\misFunciones.dll
+E:\MAUI\repos\misFunciones\misFunciones\obj\Release\net8.0\refint\misFunciones.dll
+E:\MAUI\repos\misFunciones\misFunciones\obj\Release\net8.0\misFunciones.pdb
+E:\MAUI\repos\misFunciones\misFunciones\obj\Release\net8.0\ref\misFunciones.dll
