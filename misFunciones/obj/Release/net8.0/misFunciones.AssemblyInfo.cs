@@ -12,10 +12,15 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("TuNombre")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyCopyrightAttribute("© TuNombre, 2025")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Una breve descripción de tu paquete.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.3.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.3+bb365497c73137de1b48fee6b2b08eb598f8fe3a")]
+=======
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56633cd72baa3673537d986da9684b49b4ebef15")]
+>>>>>>> 681896af15995b067db4f37358561a74d9785b35
 [assembly: System.Reflection.AssemblyProductAttribute("misFunciones")]
 [assembly: System.Reflection.AssemblyTitleAttribute("misFunciones")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.3.0")]
